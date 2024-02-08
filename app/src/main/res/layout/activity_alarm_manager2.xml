@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.research.gachi.AlarmManager2">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/btn_set_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="setalerm"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <Button
+            android:id="@+id/btn_release_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="stop alram"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="109dp" />
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="최소 시간"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="거리(단위:경도,위도)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="rate(default=1hour)"
+            android:inputType="number" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

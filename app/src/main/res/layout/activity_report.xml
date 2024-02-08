@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.research.gachi.report">
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="신고사유를 적어주세요" />
+
+            <RadioButton
+                android:id="@+id/op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="광고" />
+
+            <RadioButton
+                android:id="@+id/op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="의도적으로 왜곡된 정보"
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="-1dp" />
+
+            <RadioButton
+                android:id="@+id/op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="욕설,불건전 내용" />
+
+            <RadioButton
+                android:id="@+id/op4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="아무 관계없는 내용" />
+
+            <EditText
+                android:id="@+id/reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="371dp" />
+
+            <Button
+                android:id="@+id/singo"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:text="신고" />
+        </RadioGroup>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

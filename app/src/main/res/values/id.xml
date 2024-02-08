@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="textTitle" type="id"/>
+    <item name="textDate" type="id"/>
+    <item name="textAddress" type="id"/>
+    <item name="textId" type="id"/>
+
+
+</resources>
